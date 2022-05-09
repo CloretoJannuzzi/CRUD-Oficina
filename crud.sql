@@ -56,7 +56,7 @@ create table lista_tmp(
 --<<<================================================================================>>>
 --<<<================================================================================>>>
 
-ALTER PROCEDURE sp_oficina
+CREATE PROCEDURE sp_oficina
       @tabela int = NULL,
       @operacao int = NULL,
       @suboperacao int = NULL,
